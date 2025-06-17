@@ -14,13 +14,13 @@ import {
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDfyGuTZnDM30rYfwaom2-AxlqqVtfv76k",
-  authDomain: "fir-app-f0726.firebaseapp.com",
-  projectId: "fir-app-f0726",
-  storageBucket: "fir-app-f0726.firebasestorage.app",
-  messagingSenderId: "364542689638",
-  appId: "1:364542689638:web:c5537241c68cb1680508a7",
-  measurementId: "G-Q3HSMDZF9G"
+  apiKey: "FIREBASE_API_KEY",
+  authDomain: "FIREBASE_AUTH_DOMAIN",
+  projectId: "FIREBASE_PROJECT_ID",
+  storageBucket: "FIREBASE_STORAGE_BUCKET",
+  messagingSenderId: "FIREBASE_MESSAGING_SENSER_ID",
+  appId: "FIREBASE_APP_ID",
+  measurementId: "FIREBASE_MEASUREMENT_ID"
 };
 
 const app = initializeApp(firebaseConfig);
